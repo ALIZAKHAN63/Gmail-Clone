@@ -1,0 +1,160 @@
+*{
+    font-family: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+}
+
+
+
+
+
+.menu{
+    height:50px;
+    width: 100px;
+}
+.Rmenu{
+    height: 20px;
+    width: 20px;
+    margin-inline: 10px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+.search-container {
+    display: flex;
+    align-items: center;
+    width: 700px;
+    margin: 10px;
+    margin-right: 200px;
+    margin-left: 62px;
+    border-radius: 20px;
+    background-color: white;
+    padding: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.search-container i {
+    margin: 0 10px;
+}
+.search-container input {
+    border: none;
+    outline: none;
+    flex-grow: 1;
+    height: 30px;
+    border-radius: 20px;
+    padding: 4px;
+}
+.Lmenu{
+    height:40px;
+    width:50px;
+    margin-inline:10px;
+    margin-top:6px;
+}
+
+header{
+    display:flex;
+    background-color: rgb(233, 231, 231);
+    padding: 9px 10px;
+    border:none;
+}
+.C-btn{
+   display: block;
+   margin-inline-start: 18px;
+   height: 50px;
+    width: 150px;
+    padding: 10px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-radius: 10px;
+    background-color:   lightblue;
+    border:none;
+    cursor: pointer;
+}
+.containers{
+    display: flex;
+    background-color: rgb(233, 231, 231);
+}
+.content{
+    padding: 40px;
+    overflow-y: auto;
+    border-radius: 20px;
+    flex-grow: 1;
+    background-color: #fff;
+}
+
+body{
+    display: flex;
+    flex-direction:column;
+    height:100vh;
+}
+
+.mail-items{
+    padding: 20px;
+    border-bottom: 2px solid #d8d6d68a;
+    cursor: pointer;
+}
+.mail-items:hover{
+    background-color: #e8e8e8;
+}
+.leftmenu-item{
+    display: flex;
+    justify-content: flex-start;
+    margin:25px;
+}
+.leftmenu-item:hover{
+    background-color:  grey;
+}
+.left-menu{
+    margin: 25px;
+    list-style:none;
+    padding: 1px;
+}
+.fa-regular{
+    margin-right:30px;
+}
+.fa-solid{
+    margin-right: 30px;
+}
+.fa-plus{
+    margin-left: 50px;
+}
+.up {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+.icons {
+    display: flex;
+    gap: 10px; /* Adjust gap as needed */
+}
+.rev-menu {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adjust gap as needed */
+}
+.tabs {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+.tab {
+    padding: 15px 100px;
+    cursor: pointer;
+    border: none;
+    border-bottom: none;
+    
+    background-color: #f1f1f1;
+}
+.tab:hover {
+    background-color: #ddd;
+}
+.tab.active {
+    background-color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+
+
+
+
+
+
